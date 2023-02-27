@@ -1,15 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import Header from './components/Header'
+import CircleSection from './pageSections/CircleSection'
+import HeroSection from './pageSections/HeroSection'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">      
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div style={{ width:"100%"}}>
+        <Header/>
+        <HeroSection />
+        <CircleSection />
     </div>
   )
 }

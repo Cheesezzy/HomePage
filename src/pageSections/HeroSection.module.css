@@ -1,0 +1,26 @@
+.wrapper {
+  position: relative;
+  padding-left: 70px;
+}
+
+.vectorImage {
+  position: 'absolute';
+  right: '40px';
+}
+
+.content {
+  height: 747px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 100px;
+}
+.btnDetails {
+  background-color: #dc7000;
+  width: 190px;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
