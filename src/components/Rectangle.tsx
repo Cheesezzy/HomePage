@@ -37,7 +37,7 @@ const Rectangle = (props: Props) => {
             <p>
             {body}
             </p>
-            <span style={{ display: "flex", justifyContent:"flex-end", color:"#DC7000"}}> Read More </span>
+            <span style={{ display: "flex", justifyContent:"flex-end", color:"#DC7000"}}> Read More &gt;</span>
         </div>
 
     )

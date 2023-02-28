@@ -11,14 +11,18 @@ export default function HeroSection() {
         <section className={classes.wrapper}>
             <img style={{ position: "absolute", right:"0px", zIndex:"-1"}} src={Vector} alt="vector" />
             <div className={classes.content} >
-                <div style={{ display:"flex",rowGap:"30px", minWidth:"500px",zIndex:"1", lineHeight:"50px",flexDirection: "column", justifyContent:"space-between"}}>
-                    <span style={{color: "#E87D0E", fontSize:"20px", fontStyle: "normal", height:"31px"}}>
-                        Digital Marketing</span>
+                <div style={{ display:"flex",rowGap:"30px", minWidth:"500px",zIndex:"1",flexDirection: "column", justifyContent:"space-between"}}>
+                    <strong style={{color: "#E87D0E", fontSize:"20px", fontStyle:"normal" ,fontFamily:"unset", height:"31px"}}>
 
-                    <strong style={{color: "#000000",fontWeight:"bold", fontSize:"30px", lineHeight:"60px" }}> Work that we <br/> produce for our <br/> clients </strong>
+                        Digital Marketing</strong>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        sunt in culpa qui officia deserunt mollit anim id est laborum. consectetur adipiscing elit, sed do eiusmod 
+                    <strong style={{color: "#000000",fontWeight:"bold", fontSize:"50px", lineHeight:"155%", fontFamily:"sans-serif", width:"470px", height:"230px"}}> Work that we produce for our clients </strong>
+
+                    <p style={{
+                        height:"100px",
+                        width:"520px",
+                        lineHeight: "200%"
+                    }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. 
                     </p>
 
                     <a href="" style={{borderRadius: "40px"}} className={classes.btnDetails}>

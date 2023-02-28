@@ -1,6 +1,11 @@
 import React from 'react'
 import Book from "../../public/images/book.svg"
 import RecentPageSection2 from './RecentPageSection2'
+import Rec16 from "../../public/images/rec16.svg"
+import Rec17 from "../../public/images/rec17.svg"
+import Rec18 from "../../public/images/rec18.svg"
+import Rec19 from "../../public/images/rec19.svg"
+import Rec20 from "../../public/images/rec20.svg"
 
 const RecentProjectSection = () => {
   return (
@@ -22,17 +27,25 @@ const RecentProjectSection = () => {
         <div style={{
             display:"flex",
             justifyContent: "space-between",
+            margin:"10px"
+
         }}>
             <span>
-              <img src={Book} alt="Book" />
+              <img style={{
+                     margin:"10px"
+              }} src={Book} alt="Book" />
             </span>
 
             <span>
-              <img src={Book} alt="Book" />
+              <img style={{
+                     margin:"10px"
+              }} src={Rec16} alt="Book" />
             </span>
 
             <span>
-              <img src={Book} alt="Book" />
+              <img style={{
+                     margin:"10px"
+              }} src={Rec17} alt="Book" />
             </span>
         
         </div>
@@ -42,15 +55,21 @@ const RecentProjectSection = () => {
             justifyContent: "space-between",
         }}>
             <span>
-              <img src={Book} alt="Book" />
+              <img style={{
+                     margin:"10px"
+              }} src={Rec19} alt="Book" />
             </span>
 
             <span>
-              <img src={Book} alt="Book" />
+              <img style={{
+                     margin:"10px"
+              }} src={Rec18} alt="Book" />
             </span>
 
             <span>
-              <img src={Book} alt="Book" />
+              <img style={{
+                     margin:"10px"
+              }} src={Rec20} alt="Book" />
             </span>
         
         </div>
