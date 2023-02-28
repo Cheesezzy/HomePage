@@ -26,8 +26,8 @@ export default function CircleSection() {
                     <div style={{ position: "absolute",
                                     display:"flex",
                                     flexDirection:"column",
-                                    right:"400px",
-                                    top:"1200px",
+                                    right:"223px",
+                                    top:"1247px",
                                     zIndex:"-1"
                                     
                                     
