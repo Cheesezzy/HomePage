@@ -6,7 +6,7 @@ import Mobile from "../../public/images/mobile.svg"
 export default function CircleSection() {
     return (
         <section>
-            <div style={{}}>
+            <div style={{ marginBlock:"80px"}}>
                 <div style={{ paddingTop: "50px", display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <h2 style={{ width: "800px", textAlign: "center", height: "100px" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
@@ -36,7 +36,7 @@ export default function CircleSection() {
                         <Circle icon={Mobile} title="Mobile Game Development" />
                     </div>
 
-                    <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", columnGap: "100px" }}>
+                    <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", columnGap: "100px"}}>
                         <Circle icon={Mobile} title="Mobile Game Development" />
                         <Circle icon={Mobile} title="Mobile Game Development" />
                     </div>

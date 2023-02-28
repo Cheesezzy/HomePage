@@ -1,8 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import Footer from './components/Footer'
 import Header from './components/Header'
+import CarouselSection from './pageSections/CarouselSection'
 import CircleSection from './pageSections/CircleSection'
 import HeroSection from './pageSections/HeroSection'
+import Loop from './pageSections/Loop'
+import RecentProjectSection from './pageSections/RecentProjectSection'
 
 
 function App() {
@@ -13,6 +17,10 @@ function App() {
         <Header/>
         <HeroSection />
         <CircleSection />
+        <CarouselSection />
+        <RecentProjectSection />
+        <Loop/>
+        <Footer/>
     </div>
   )
 }
