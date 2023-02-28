@@ -12,22 +12,26 @@ import Model from "../../public/images/3dmodel.svg"
 export default function CircleSection() {
     return (
         <section>
-            <div style={{ marginBlock: "80px" }}>
-                <div style={{ paddingTop: "50px", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                    <h2 style={{ width: "800px", textAlign: "center", height: "100px", fontSize:"25px" }}>
+            <div style={{ marginTop: "100px" }}>
+                <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                    <h2 style={{ maxWidth: "800px", textAlign: "center", maxHeight: "100px", fontSize:"25px" }}>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.                    </h2>
                 </div>
                 <div style={{ paddingLeft: "170px" }}>
                     <h1>Lorem ipsum</h1>
-                    <p style={{ width: "540px", height: "100px", color: "#525252", fontSize: "16px", fontWeight: "400px" }}>
+                    <p style={{ maxWidth: "540px", maxHeight: "100px", color: "#525252", fontSize: "16px", fontWeight: "400px" }}>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,                    </p>
-                    <img src={Table} alt="table" />
+                    <img style={{
+                        maxWidth:"930",
+                        maxHeight:"460px",
+                        marginTop:"80px"
+                    }} src={Table} alt="table" />
 
                     <div style={{ position: "absolute",
                                     display:"flex",
                                     flexDirection:"column",
-                                    right:"400px",
-                                    top:"1200px",
+                                    right:"407px",
+                                    top:"1247px",
                                     zIndex:"-1"
                                     
                                     
