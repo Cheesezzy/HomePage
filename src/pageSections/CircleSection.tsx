@@ -12,7 +12,7 @@ import Model from "../../public/images/3dmodel.svg"
 export default function CircleSection() {
     return (
         <section>
-            <div style={{ marginTop: "100px" }}>
+            <div style={{ marginBlock: "120px" }}>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <h2 style={{ maxWidth: "800px", textAlign: "center", maxHeight: "100px", fontSize:"25px" }}>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.                    </h2>
@@ -31,7 +31,7 @@ export default function CircleSection() {
                                     display:"flex",
                                     flexDirection:"column",
                                     right:"407px",
-                                    top:"1247px",
+                                    top:"1268px",
                                     zIndex:"-1"
                                     
                                     
